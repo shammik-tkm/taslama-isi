@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile</title>
+    <link rel="stylesheet" href="../css/style.css"> <!-- Убедитесь, что путь к вашему CSS корректен -->
+</head>
+<body>
+
+<div class="profile-container">
+    <div class="profile">
+        <div class="profile-header">
+            <img src="../images/user-icon.png" alt="Profile Photo"> <!-- Замените на путь к изображению профиля -->
+
+            <div class="profile-info">
+                <h2>Şamährem Baýlyýew</h2> <!-- Замените на имя пользователя -->
+                <p>Okuwçy</p> <!-- Замените на роль пользователя -->
+            </div>
+        </div>
+        <div class="profile-details">
+            <p><span class="prf-icon">&#128222;</span>Телефон: +993 65 000000</p> <!-- Замените на телефон -->
+            <p><span class="prf-icon">&#128231;</span>Email: user@example.com</p> <!-- Замените на email -->
+            <a href="#" class="edit-prf-btn">Uytget</a> <!-- Замените на ссылку редактирования -->
+            <a href="#" class="exit-btn">Ulgamdan chykmak</a> <!-- Замените на ссылку выхода -->
+        </div>
+    </div>
+
+    <!-- Проверка роли пользователя, здесь просто отображаем контент для администратора -->
+    <div class="profile-card">
+        <a href="add-new.html" class="add-product-btn">Tazelik goshmak</a>
+
+        <div class="product-grid">
+            <!-- Пример статичного контента для новостей -->
+            <div class="card">
+                <a href="new.html" class="card-link">
+                    <div class="img-div">
+                        <img src="../images/default.jpg" alt="News Title" class="card-img"> <!-- Замените на путь к изображению новости -->
+                    </div>
+                </a>
+                <div class="card-body">
+                    <a href="new.html" class="card-link">
+                        <h5 class="card-title">
+                            <p class="card-link">News Title 1</p> <!-- Замените на заголовок новости -->
+                        </h5>
+                        <p class="card-text">
+                            <strong>Beyany:</strong> Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda accusamus mag<br> <!-- Замените на описание новости -->
+                            <strong>Kategoriya:</strong> Ylym-bilim <!-- Замените на категорию новости -->
+                        </p>
+                    </a>
+                    <br>
+                    <hr>
+                    <div class="card-buttons">
+                        <a href="#" class="btn edit-btn">Tazeligi uytget</a> <!-- Замените на ссылку для редактирования новости -->
+                        <a href="#" class="btn delete-btn">Tazeligi poz</a> <!-- Замените на ссылку для удаления новости -->
+                    </div>
+                </div>
+            </div>
+            <!-- Повторите блок с карточками для других новостей -->
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
